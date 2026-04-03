@@ -1,0 +1,31 @@
+{
+  "name": "git-tools",
+  "version": "0.1.0",
+  "description": "Git workflow skills for commit, push, PR creation, and semantic cleanup.",
+  "author": {
+    "name": "madobon",
+    "email": "2717359+madobon@users.noreply.github.com",
+    "url": "https://github.com/madobon"
+  },
+  "repository": "https://github.com/madobon/codex-skills",
+  "license": "MIT",
+  "keywords": ["git", "commit", "github", "pr", "semantic-commits"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Git Tools",
+    "shortDescription": "Git workflow skills for commit, push, PR, and cleanup.",
+    "longDescription": "A local Codex plugin that provides prefixed Git workflow skills for single commits, push and PR flows, and semantic cleanup after review changes.",
+    "developerName": "madobon",
+    "category": "Developer Tools",
+    "capabilities": ["Interactive", "Write"],
+    "websiteURL": "https://github.com/madobon",
+    "privacyPolicyURL": "https://openai.com/policies/row-privacy-policy/",
+    "termsOfServiceURL": "https://openai.com/policies/row-terms-of-use/",
+    "defaultPrompt": [
+      "Use git-tools:commit for the current repo.",
+      "Use git-tools:commit-push on this branch.",
+      "Use git-tools:semantic-pr-cleanup for this PR branch."
+    ],
+    "brandColor": "#14532D"
+  }
+}
