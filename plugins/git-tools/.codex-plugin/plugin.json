@@ -7,6 +7,7 @@
     "email": "2717359+madobon@users.noreply.github.com",
     "url": "https://github.com/madobon"
   },
+  "homepage": "https://github.com/madobon/codex-skills",
   "repository": "https://github.com/madobon/codex-skills",
   "license": "MIT",
   "keywords": ["git", "commit", "github", "pr", "semantic-commits"],
@@ -26,6 +27,9 @@
       "Use git-tools:commit-push on this branch.",
       "Use git-tools:semantic-pr-cleanup for this PR branch."
     ],
-    "brandColor": "#14532D"
+    "brandColor": "#14532D",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/logo.svg",
+    "screenshots": []
   }
 }

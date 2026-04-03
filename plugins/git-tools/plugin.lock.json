@@ -1,0 +1,63 @@
+{
+  "lockVersion": 1,
+  "pluginId": "dev.madobon.git-tools",
+  "pluginVersion": "0.1.0",
+  "generatedBy": "manual local install",
+  "generatedAt": "2026-04-04T00:00:00Z",
+  "skills": [
+    {
+      "id": "commit",
+      "vendoredPath": "skills/commit",
+      "source": {
+        "type": "local",
+        "path": "skills/commit"
+      },
+      "integrity": "sha256-local"
+    },
+    {
+      "id": "commit-push",
+      "vendoredPath": "skills/commit-push",
+      "source": {
+        "type": "local",
+        "path": "skills/commit-push"
+      },
+      "integrity": "sha256-local"
+    },
+    {
+      "id": "commit-push-pr",
+      "vendoredPath": "skills/commit-push-pr",
+      "source": {
+        "type": "local",
+        "path": "skills/commit-push-pr"
+      },
+      "integrity": "sha256-local"
+    },
+    {
+      "id": "semantic-cleanup",
+      "vendoredPath": "skills/semantic-cleanup",
+      "source": {
+        "type": "local",
+        "path": "skills/semantic-cleanup"
+      },
+      "integrity": "sha256-local"
+    },
+    {
+      "id": "semantic-commit",
+      "vendoredPath": "skills/semantic-commit",
+      "source": {
+        "type": "local",
+        "path": "skills/semantic-commit"
+      },
+      "integrity": "sha256-local"
+    },
+    {
+      "id": "semantic-pr-cleanup",
+      "vendoredPath": "skills/semantic-pr-cleanup",
+      "source": {
+        "type": "local",
+        "path": "skills/semantic-pr-cleanup"
+      },
+      "integrity": "sha256-local"
+    }
+  ]
+}

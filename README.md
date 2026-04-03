@@ -23,10 +23,17 @@ plugins/
 
 ## ローカルで使う
 
-このリポジトリを clone したうえで、`.agents/plugins/marketplace.json` の plugin 定義をローカルの Codex から参照します。
+home-local plugin として使う場合の配置は以下です。
 
-シンプルに使うだけなら、`plugins/git-tools` を `~/.codex/plugins/` 配下へコピーしても構いません。
+1. このリポジトリを clone する
+2. `plugins/git-tools` を `~/plugins/git-tools` に配置する
+3. `~/.agents/plugins/marketplace.json` に `./plugins/git-tools` を指す marketplace entry を置く
+4. Codex を再起動して plugin を有効化する
+
+このリポジトリには repo-local 用の marketplace 定義として [`.agents/plugins/marketplace.json`](/Users/madobon/Projects/codex-skills/.agents/plugins/marketplace.json) も含めています。
+
+重要なのは、home-local plugin の実体は `~/.codex/plugins/` ではなく `~/plugins/` に置くことです。
 
 ## 補足
 
-`git-tools` はカスタムのスラッシュコマンドではなく、`git-tools:commit` のようなプレフィックス付き skill として使う前提です。
+`git-tools` はカスタムのスラッシュコマンドそのものではなく、`git-tools:commit` のようなプレフィックス付き skill として使う前提です。運用上は `/git-tools:commit` のような slash 風入力でも解釈できることがあります。
