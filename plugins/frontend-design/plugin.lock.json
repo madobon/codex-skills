@@ -1,0 +1,18 @@
+{
+  "lockVersion": 1,
+  "pluginId": "dev.madobon.frontend-design",
+  "pluginVersion": "0.1.0",
+  "generatedBy": "manual local install",
+  "generatedAt": "2026-04-04T00:00:00Z",
+  "skills": [
+    {
+      "id": "frontend-design",
+      "vendoredPath": "skills/frontend-design",
+      "source": {
+        "type": "local",
+        "path": "skills/frontend-design"
+      },
+      "integrity": "sha256-local"
+    }
+  ]
+}

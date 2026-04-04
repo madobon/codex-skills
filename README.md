@@ -1,11 +1,30 @@
 # codex-skills
 
 [![Codex](https://img.shields.io/badge/Codex-local%20plugins-111111?style=flat-square)](#)
-[![Plugin](https://img.shields.io/badge/plugin-git--tools-14532D?style=flat-square)](#git-tools)
-[![Skills](https://img.shields.io/badge/skills-6-blue?style=flat-square)](#git-tools)
+[![Plugins](https://img.shields.io/badge/plugins-2-14532D?style=flat-square)](#frontend-design)
+[![Skills](https://img.shields.io/badge/skills-7-blue?style=flat-square)](#frontend-design)
 [![License](https://img.shields.io/badge/license-MIT-0f766e?style=flat-square)](#)
 
-個人用の Codex skill / plugin をまとめるリポジトリです。現在は Git ワークフローをまとめた local plugin `git-tools` を収録しています。
+個人用の Codex skill / plugin をまとめるリポジトリです。現在は Git ワークフローをまとめた local plugin `git-tools` と、UI 実装向けの `frontend-design` を収録しています。
+
+## Frontend Design
+
+Frontend Design は、ページ、コンポーネント、ダッシュボード、ランディングページなどの見た目を Codex で作り込むための plugin です。
+
+### Available Skills
+
+- `frontend-design:frontend-design`
+
+### Quick Start
+
+home-local plugin として使う場合は、`plugins/frontend-design` を `~/plugins/frontend-design` に配置し、`~/.agents/plugins/marketplace.json` に `./plugins/frontend-design` を指す entry を追加します。
+
+### Example
+
+```text
+Use frontend-design:frontend-design to redesign this React settings page.
+Use frontend-design:frontend-design to build a bold landing page for a cafe.
+```
 
 ## Git Tools
 
@@ -45,6 +64,11 @@ Use git-tools:semantic-pr-cleanup for this PR branch.
 
 ```text
 plugins/
+  frontend-design/
+    .codex-plugin/plugin.json
+    plugin.lock.json
+    assets/
+    skills/
   git-tools/
     .codex-plugin/plugin.json
     plugin.lock.json
@@ -61,4 +85,5 @@ repo-local 用の marketplace 定義は [`.agents/plugins/marketplace.json`](/Us
 
 - home-local plugin の marketplace は `~/.agents/plugins/marketplace.json`
 - home-local plugin の実体パスは `~/plugins/<plugin-name>`
+- `frontend-design` の metadata は [`plugins/frontend-design/.codex-plugin/plugin.json`](/Users/madobon/Projects/codex-skills/plugins/frontend-design/.codex-plugin/plugin.json)
 - `git-tools` の metadata は [`plugins/git-tools/.codex-plugin/plugin.json`](/Users/madobon/Projects/codex-skills/plugins/git-tools/.codex-plugin/plugin.json)

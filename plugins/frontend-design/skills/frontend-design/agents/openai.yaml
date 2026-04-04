@@ -1,0 +1,7 @@
+interface:
+  display_name: "Frontend Design"
+  short_description: "Distinctive UI design skill for production code"
+  default_prompt: "Use $frontend-design to design and implement a distinctive frontend surface."
+
+policy:
+  allow_implicit_invocation: true

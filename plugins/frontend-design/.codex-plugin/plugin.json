@@ -1,0 +1,35 @@
+{
+  "name": "frontend-design",
+  "version": "0.1.0",
+  "description": "Frontend design skill for bold, production-grade UI implementation.",
+  "author": {
+    "name": "madobon",
+    "email": "2717359+madobon@users.noreply.github.com",
+    "url": "https://github.com/madobon"
+  },
+  "homepage": "https://github.com/madobon/codex-skills",
+  "repository": "https://github.com/madobon/codex-skills",
+  "license": "MIT",
+  "keywords": ["frontend", "design", "ui", "css", "react"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Frontend Design",
+    "shortDescription": "Bold frontend design skill for polished UI work.",
+    "longDescription": "A local Codex plugin that adds a frontend-design skill for distinctive, production-grade pages, components, and interfaces with strong visual direction.",
+    "developerName": "madobon",
+    "category": "Design",
+    "capabilities": ["Write"],
+    "websiteURL": "https://github.com/madobon",
+    "privacyPolicyURL": "https://openai.com/policies/row-privacy-policy/",
+    "termsOfServiceURL": "https://openai.com/policies/row-terms-of-use/",
+    "defaultPrompt": [
+      "Use frontend-design:frontend-design to design and build a landing page.",
+      "Use frontend-design:frontend-design to restyle this React component.",
+      "Use frontend-design:frontend-design to make this dashboard feel intentional."
+    ],
+    "brandColor": "#9A3412",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/logo.svg",
+    "screenshots": []
+  }
+}

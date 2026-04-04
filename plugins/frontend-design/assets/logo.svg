@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 96" role="img" aria-label="Frontend Design logo">
+  <rect width="320" height="96" rx="24" fill="#431407"/>
+  <rect x="18" y="18" width="60" height="60" rx="16" fill="#9A3412"/>
+  <path d="M31 33h34v6H31zm0 12h20v6H31zm0 12h26v6H31z" fill="#FFEDD5"/>
+  <circle cx="58" cy="58" r="9" fill="#FDBA74"/>
+  <text x="96" y="44" fill="#FFEDD5" font-family="Georgia, serif" font-size="20" font-weight="700">Frontend Design</text>
+  <text x="96" y="66" fill="#FDBA74" font-family="Helvetica, Arial, sans-serif" font-size="12" letter-spacing="1.2">BOLD UI SKILL FOR CODEX</text>
+</svg>
